@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54BCBE4419187B3A003B51C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCBE4319187B3A003B51C9 /* Cocoa.framework */; };
+		54BCBE4E19187B3B003B51C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BCBE4C19187B3B003B51C9 /* InfoPlist.strings */; };
+		54BCBE5019187B3B003B51C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCBE4F19187B3B003B51C9 /* main.m */; };
+		54BCBE5419187B3B003B51C9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 54BCBE5219187B3B003B51C9 /* Credits.rtf */; };
+		54BCBE5719187B3B003B51C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCBE5619187B3B003B51C9 /* AppDelegate.m */; };
+		54BCBE5A19187B3B003B51C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54BCBE5819187B3B003B51C9 /* MainMenu.xib */; };
+		54BCBE5C19187B3B003B51C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BCBE5B19187B3B003B51C9 /* Images.xcassets */; };
+		54BCBE6319187B3B003B51C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCBE6219187B3B003B51C9 /* XCTest.framework */; };
+		54BCBE6419187B3B003B51C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BCBE4319187B3A003B51C9 /* Cocoa.framework */; };
+		54BCBE6C19187B3B003B51C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54BCBE6A19187B3B003B51C9 /* InfoPlist.strings */; };
+		54BCBE6E19187B3B003B51C9 /* font_expoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCBE6D19187B3B003B51C9 /* font_expoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54BCBE6519187B3B003B51C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54BCBE3819187B3A003B51C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54BCBE3F19187B3A003B51C9;
+			remoteInfo = "font-expo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54BCBE4019187B3A003B51C9 /* font-expo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "font-expo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BCBE4319187B3A003B51C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		54BCBE4619187B3A003B51C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		54BCBE4719187B3A003B51C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54BCBE4819187B3A003B51C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54BCBE4B19187B3B003B51C9 /* font-expo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "font-expo-Info.plist"; sourceTree = "<group>"; };
+		54BCBE4D19187B3B003B51C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54BCBE4F19187B3B003B51C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54BCBE5119187B3B003B51C9 /* font-expo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "font-expo-Prefix.pch"; sourceTree = "<group>"; };
+		54BCBE5319187B3B003B51C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		54BCBE5519187B3B003B51C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54BCBE5619187B3B003B51C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54BCBE5919187B3B003B51C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		54BCBE5B19187B3B003B51C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54BCBE6119187B3B003B51C9 /* font-expoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "font-expoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BCBE6219187B3B003B51C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54BCBE6919187B3B003B51C9 /* font-expoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "font-expoTests-Info.plist"; sourceTree = "<group>"; };
+		54BCBE6B19187B3B003B51C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54BCBE6D19187B3B003B51C9 /* font_expoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = font_expoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54BCBE3D19187B3A003B51C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE4419187B3A003B51C9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BCBE5E19187B3B003B51C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE6419187B3B003B51C9 /* Cocoa.framework in Frameworks */,
+				54BCBE6319187B3B003B51C9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BCBE3719187B3A003B51C9 = {
+			isa = PBXGroup;
+			children = (
+				54BCBE4919187B3A003B51C9 /* font-expo */,
+				54BCBE6719187B3B003B51C9 /* font-expoTests */,
+				54BCBE4219187B3A003B51C9 /* Frameworks */,
+				54BCBE4119187B3A003B51C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54BCBE4119187B3A003B51C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE4019187B3A003B51C9 /* font-expo.app */,
+				54BCBE6119187B3B003B51C9 /* font-expoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54BCBE4219187B3A003B51C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE4319187B3A003B51C9 /* Cocoa.framework */,
+				54BCBE6219187B3B003B51C9 /* XCTest.framework */,
+				54BCBE4519187B3A003B51C9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54BCBE4519187B3A003B51C9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE4619187B3A003B51C9 /* AppKit.framework */,
+				54BCBE4719187B3A003B51C9 /* CoreData.framework */,
+				54BCBE4819187B3A003B51C9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		54BCBE4919187B3A003B51C9 /* font-expo */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE5519187B3B003B51C9 /* AppDelegate.h */,
+				54BCBE5619187B3B003B51C9 /* AppDelegate.m */,
+				54BCBE5819187B3B003B51C9 /* MainMenu.xib */,
+				54BCBE5B19187B3B003B51C9 /* Images.xcassets */,
+				54BCBE4A19187B3A003B51C9 /* Supporting Files */,
+			);
+			path = "font-expo";
+			sourceTree = "<group>";
+		};
+		54BCBE4A19187B3A003B51C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE4B19187B3B003B51C9 /* font-expo-Info.plist */,
+				54BCBE4C19187B3B003B51C9 /* InfoPlist.strings */,
+				54BCBE4F19187B3B003B51C9 /* main.m */,
+				54BCBE5119187B3B003B51C9 /* font-expo-Prefix.pch */,
+				54BCBE5219187B3B003B51C9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54BCBE6719187B3B003B51C9 /* font-expoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE6D19187B3B003B51C9 /* font_expoTests.m */,
+				54BCBE6819187B3B003B51C9 /* Supporting Files */,
+			);
+			path = "font-expoTests";
+			sourceTree = "<group>";
+		};
+		54BCBE6819187B3B003B51C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54BCBE6919187B3B003B51C9 /* font-expoTests-Info.plist */,
+				54BCBE6A19187B3B003B51C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54BCBE3F19187B3A003B51C9 /* font-expo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BCBE7119187B3B003B51C9 /* Build configuration list for PBXNativeTarget "font-expo" */;
+			buildPhases = (
+				54BCBE3C19187B3A003B51C9 /* Sources */,
+				54BCBE3D19187B3A003B51C9 /* Frameworks */,
+				54BCBE3E19187B3A003B51C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "font-expo";
+			productName = "font-expo";
+			productReference = 54BCBE4019187B3A003B51C9 /* font-expo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54BCBE6019187B3B003B51C9 /* font-expoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BCBE7419187B3B003B51C9 /* Build configuration list for PBXNativeTarget "font-expoTests" */;
+			buildPhases = (
+				54BCBE5D19187B3B003B51C9 /* Sources */,
+				54BCBE5E19187B3B003B51C9 /* Frameworks */,
+				54BCBE5F19187B3B003B51C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54BCBE6619187B3B003B51C9 /* PBXTargetDependency */,
+			);
+			name = "font-expoTests";
+			productName = "font-expoTests";
+			productReference = 54BCBE6119187B3B003B51C9 /* font-expoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54BCBE3819187B3A003B51C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ok;
+				TargetAttributes = {
+					54BCBE6019187B3B003B51C9 = {
+						TestTargetID = 54BCBE3F19187B3A003B51C9;
+					};
+				};
+			};
+			buildConfigurationList = 54BCBE3B19187B3A003B51C9 /* Build configuration list for PBXProject "font-expo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54BCBE3719187B3A003B51C9;
+			productRefGroup = 54BCBE4119187B3A003B51C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54BCBE3F19187B3A003B51C9 /* font-expo */,
+				54BCBE6019187B3B003B51C9 /* font-expoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54BCBE3E19187B3A003B51C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE4E19187B3B003B51C9 /* InfoPlist.strings in Resources */,
+				54BCBE5C19187B3B003B51C9 /* Images.xcassets in Resources */,
+				54BCBE5419187B3B003B51C9 /* Credits.rtf in Resources */,
+				54BCBE5A19187B3B003B51C9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BCBE5F19187B3B003B51C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE6C19187B3B003B51C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54BCBE3C19187B3A003B51C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE5719187B3B003B51C9 /* AppDelegate.m in Sources */,
+				54BCBE5019187B3B003B51C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BCBE5D19187B3B003B51C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BCBE6E19187B3B003B51C9 /* font_expoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54BCBE6619187B3B003B51C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54BCBE3F19187B3A003B51C9 /* font-expo */;
+			targetProxy = 54BCBE6519187B3B003B51C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54BCBE4C19187B3B003B51C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BCBE4D19187B3B003B51C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54BCBE5219187B3B003B51C9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BCBE5319187B3B003B51C9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		54BCBE5819187B3B003B51C9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BCBE5919187B3B003B51C9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		54BCBE6A19187B3B003B51C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54BCBE6B19187B3B003B51C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54BCBE6F19187B3B003B51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54BCBE7019187B3B003B51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54BCBE7219187B3B003B51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "font-expo/font-expo-Prefix.pch";
+				INFOPLIST_FILE = "font-expo/font-expo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54BCBE7319187B3B003B51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "font-expo/font-expo-Prefix.pch";
+				INFOPLIST_FILE = "font-expo/font-expo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54BCBE7519187B3B003B51C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/font-expo.app/Contents/MacOS/font-expo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "font-expo/font-expo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "font-expoTests/font-expoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54BCBE7619187B3B003B51C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/font-expo.app/Contents/MacOS/font-expo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "font-expo/font-expo-Prefix.pch";
+				INFOPLIST_FILE = "font-expoTests/font-expoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54BCBE3B19187B3A003B51C9 /* Build configuration list for PBXProject "font-expo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BCBE6F19187B3B003B51C9 /* Debug */,
+				54BCBE7019187B3B003B51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BCBE7119187B3B003B51C9 /* Build configuration list for PBXNativeTarget "font-expo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BCBE7219187B3B003B51C9 /* Debug */,
+				54BCBE7319187B3B003B51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54BCBE7419187B3B003B51C9 /* Build configuration list for PBXNativeTarget "font-expoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BCBE7519187B3B003B51C9 /* Debug */,
+				54BCBE7619187B3B003B51C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54BCBE3819187B3A003B51C9 /* Project object */;
+}
